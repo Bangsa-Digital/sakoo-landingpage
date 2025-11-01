@@ -97,6 +97,29 @@
         background-clip: text;
       }
 
+      /* default (desktop large screens) */
+      .leading-tight {
+        /* tetap pakai nilai desktop besar yang tadi */
+        line-height: 4.5rem !important;
+      }
+
+      /* Tablet / large mobile (≤ 768px) */
+      @media (max-width: 768px) {
+        .leading-tight {
+          line-height: 3.4rem !important;
+          /* cukup nyaman untuk ukuran teks 1.25rem - 2rem */
+        }
+      }
+
+      /* Mobile kecil (≤ 480px) */
+      @media (max-width: 480px) {
+        .leading-tight {
+          line-height: 2.8rem !important;
+          /* padat dan rapi di layar kecil */
+        }
+      }
+
+
       /* Accordion */
       .accordion-content {
         max-height: 0;
@@ -292,11 +315,11 @@
 
             <!-- Left content -->
             <div class="text-center lg:text-left">
-              <h1 class="fade-in-section text-4xl md:text-5xl lg:text-6xl font-bold text-[#2F3542] leading-tight mb-6">
+              <h1 class="fade-in-section text-4xl md:text-5xl lg:text-6xl font-bold text-[#2F3542] mb-6 leading-tight">
                 <span class="text-green-700">Kelola Keuangan</span> Semudah Mengirim Chat di <span class="gradient-text">WhatsApp</span>.
               </h1>
               <p class="fade-in-section text-lg md:text-xl text-gray-600 mb-8 max-w-2xl m-auto">
-                Sakoo App adalah aplikasi pencatatan keuangan berbasis WhatsApp untuk mencatat pengeluaran dan pemasukan secara otomatis — cepat, aman, dan mudah digunakan.
+                Sakoo App adalah aplikasi pencatatan keuangan berbasis WhatsApp untuk mencatat pengeluaran dan pemasukan secara otomatis. <strong>Cepat, aman, </strong>dan <strong>mudah</strong> digunakan.
               </p>
               <div class="fade-in-section flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <a href="https://oo.sakooapp.com" class="gradient-primary text-white text-lg px-4 py-2 rounded-md hover:opacity-90 transition-opacity text-center">
