@@ -422,14 +422,18 @@
         </div>
 
         <!-- Billing Toggle (Monthly / Yearly) -->
-        <div class="flex justify-center mb-10 md:mb-14">
-          <div class="bg-white p-1.5 rounded-full inline-flex relative border border-slate-200 w-full max-w-[22rem] md:max-w-md shadow-sm">
+        <div class="flex justify-center mb-10 md:mb-14 pt-4"> <!-- Ditambahkan pt-4 agar badge melayang memiliki ruang -->
+          <div class="bg-white p-1.5 rounded-full inline-flex relative border border-slate-200 w-full max-w-xs md:max-w-sm shadow-sm">
             <div id="billing-slider" class="absolute top-1.5 bottom-1.5 w-[calc(50%-6px)] rounded-full bg-slate-100 shadow-sm transition-transform duration-500 ease-in-out translate-x-0"></div>
             <button id="btn-monthly" class="relative z-10 flex-1 py-3 px-4 rounded-full text-sm font-semibold transition-colors duration-300 text-slate-900">
               Bulanan
             </button>
-            <button id="btn-yearly" class="relative z-10 flex-[1.2] py-3 px-4 rounded-full text-sm font-semibold transition-colors duration-300 text-slate-500 hover:text-slate-700 flex items-center justify-center gap-1.5">
-              Tahunan <span class="bg-green-100 text-green-700 text-[9px] md:text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wide whitespace-nowrap">Diskon up to 17%</span>
+            <button id="btn-yearly" class="relative z-10 flex-1 py-3 px-4 rounded-full text-sm font-semibold transition-colors duration-300 text-slate-500 hover:text-slate-700 flex items-center justify-center">
+              Tahunan
+              <!-- Floating Badge Absolute -->
+              <span class="absolute -top-3.5 -right-2 md:-top-4 md:-right-5 bg-green-500 text-white border border-green-400 text-[9px] md:text-[10px] font-bold px-2.5 py-0.5 rounded-full tracking-wide whitespace-nowrap shadow-md z-20">
+                Diskon up to 17%
+              </span>
             </button>
           </div>
         </div>
