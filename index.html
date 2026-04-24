@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="id" class="scroll-smooth">
-
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- Lucide Icons -->
     <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
 
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <link rel="preload" as="image" href="https://sakooapp.com/assets/preview.jpg">
 
+    <!-- 🌐 Basic SEO  -->
     <title>Sakoo App — Kelola Keuangan Semudah Chatting di WhatsApp</title>
     <meta name="description" content="Sakoo adalah aplikasi pencatatan keuangan berbasis WhatsApp. Catat pengeluaran, pemasukan, dan laporan keuangan otomatis hanya lewat chat — mudah, cepat, dan gratis dicoba.">
     <meta name="keywords" content="aplikasi pencatatan keuangan WhatsApp, aplikasi keuangan pribadi, catat pengeluaran WhatsApp, laporan keuangan otomatis, Sakoo App, bot keuangan WhatsApp, aplikasi akuntansi ringan, pencatatan keuangan bisnis, WhatsApp finance Indonesia">
@@ -21,6 +23,7 @@
     <meta name="robots" content="index, follow">
     <meta name="language" content="id">
 
+    <!-- 📱 Open Graph (Facebook, LinkedIn, WhatsApp Preview) -->
     <meta property="og:title" content="Sakoo App — Kelola Keuangan Semudah Chatting di WhatsApp">
     <meta property="og:description" content="Catat pengeluaran & pemasukan otomatis dari WhatsApp. Tanpa ribet, tanpa aplikasi tambahan. Coba gratis Sakoo sekarang!">
     <meta property="og:image" content="https://sakooapp.com/assets/preview.jpg">
@@ -30,23 +33,28 @@
     <meta property="og:locale" content="id_ID">
     <meta property="og:image:alt" content="Tampilan chat Sakoo App untuk mencatat keuangan di WhatsApp">
 
+    <!-- 🐦 Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@sakooapp">
     <meta name="twitter:title" content="Sakoo App — Kelola Keuangan Semudah Chatting di WhatsApp">
     <meta name="twitter:description" content="Catat keuangan langsung lewat WhatsApp. Gratis, praktis, dan otomatis.">
     <meta name="twitter:image" content="https://sakooapp.com/assets/preview.jpg">
 
+    <!-- 💫 Favicon -->
     <link rel="icon" href="https://sakooapp.com/assets/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="https://sakooapp.com/assets/apple-touch-icon.png">
 
+    <!-- 🔍 Canonical URL -->
     <link rel="canonical" href="https://sakooapp.com/">
 
+    <!-- ✅ Extra SEO Enhancement -->
     <meta name="google-site-verification" content="ISI_DENGAN_KODE_DARI_GOOGLE_SEARCH_CONSOLE" />
     <meta name="theme-color" content="#0D986A">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
+    <!-- ✅ JSON-LD: Organization -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -66,6 +74,7 @@
       }
     </script>
 
+    <!-- 📈 JSON-LD: Software Application -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -89,6 +98,7 @@
       }
     </script>
 
+    <!-- 🛍️ JSON-LD: Product -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -129,6 +139,7 @@
       }
     </script>
 
+    <!-- ❓ JSON-LD: FAQ -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -191,9 +202,9 @@
       .faq-content {
         overflow: hidden;
       }
-
     </style>
 
+    <!-- Google Analytics 4 (GA4) Placeholder -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1JQD2V0ZL2"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -202,6 +213,7 @@
       gtag('config', 'G-1JQD2V0ZL2');
     </script>
 
+    <!-- Meta (Facebook) Pixel Placeholder -->
     <script>
       !function (f, b, e, v, n, t, s) {
         if (f.fbq) return; n = f.fbq = function () {
@@ -218,7 +230,9 @@
       fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1" /></noscript>
-    </head>
+    <!-- End Meta Pixel -->
+
+  </head>
 
   <body class="min-h-screen font-sans transition-colors duration-500 bg-white text-slate-800">
 
@@ -398,13 +412,26 @@
     <!-- Pricing Section -->
     <section id="harga" class="py-16 md:py-24 bg-slate-50">
       <div class="container mx-auto px-5 md:px-12">
-        <div class="text-center max-w-3xl mx-auto mb-14 md:mb-20">
+        <div class="text-center max-w-3xl mx-auto mb-10 md:mb-14">
           <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-4 md:mb-6">
             Pilih Paket Sesuai <span id="harga-highlight" class="transition-colors duration-500 text-blue-600">Kebutuhan Anda</span>
           </h2>
           <p class="text-base md:text-lg text-slate-600">
             Mulai gratis, lalu tingkatkan layanan seiring dengan pertumbuhan finansial atau bisnis Anda.
           </p>
+        </div>
+
+        <!-- Billing Toggle (Monthly / Yearly) -->
+        <div class="flex justify-center mb-10 md:mb-14">
+          <div class="bg-white p-1.5 rounded-full inline-flex relative border border-slate-200 w-full max-w-[22rem] md:max-w-md shadow-sm">
+            <div id="billing-slider" class="absolute top-1.5 bottom-1.5 w-[calc(50%-6px)] rounded-full bg-slate-100 shadow-sm transition-transform duration-500 ease-in-out translate-x-0"></div>
+            <button id="btn-monthly" class="relative z-10 flex-1 py-3 px-4 rounded-full text-sm font-semibold transition-colors duration-300 text-slate-900">
+              Bulanan
+            </button>
+            <button id="btn-yearly" class="relative z-10 flex-[1.2] py-3 px-4 rounded-full text-sm font-semibold transition-colors duration-300 text-slate-500 hover:text-slate-700 flex items-center justify-center gap-1.5">
+              Tahunan <span class="bg-green-100 text-green-700 text-[9px] md:text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wide whitespace-nowrap">Diskon up to 17%</span>
+            </button>
+          </div>
         </div>
 
         <div id="pricing-container" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto items-center">
@@ -436,8 +463,8 @@
       <div class="container mx-auto px-5 md:px-12">
         <div id="cta-box" class="rounded-[2rem] md:rounded-[3rem] p-8 sm:p-12 md:p-20 text-center text-white relative overflow-hidden transition-colors duration-500 bg-blue-600">
           <div class="absolute inset-0 bg-black/10"></div>
-          <div class="relative z-10 max-w-3xl mx-auto">
-            <h2 class="text-xl sm:text-3xl md:text-5xl font-bold mb-4 md:mb-6 leading-tight">Mulai Disiplin Finansial Hari Ini</h2>
+          <div class="relative z-10 max-w-2xl mx-auto">
+            <h2 class="text-2xl sm:text-3xl md:text-5xl font-bold mb-4 md:mb-6 leading-tight">Mulai Disiplin Finansial Hari Ini</h2>
             <p class="text-base md:text-xl text-white/90 mb-8 md:mb-10 leading-relaxed">
               Bergabunglah dengan ribuan pengguna personal dan pemilik bisnis yang telah mempercayakan arus kas mereka pada SakooApp.
             </p>
@@ -454,17 +481,16 @@
     <!-- Footer -->
     <footer class="bg-slate-900 text-slate-400 py-10 md:py-12 border-t border-slate-800">
       <div class="container mx-auto px-5 md:px-12 flex flex-col md:flex-row justify-between items-center gap-6">
-        <div class="flex gap-2 flex-col">
-            <div class="w-20 h-10 overflow-hidden flex justify-center align-center">
-                <img src="./assets/logo.png" alt="SakooApp Logo" class=" w-20 h-auto object-cover rounded">
-            </div>
-            <p class="text-sm md:text-sm text-center md:text-left">© 2025 SakooApp. All rights reserved.</p>
+        <div class="flex items-center gap-2">
+          <div class="w-6 h-6 rounded bg-slate-700 flex items-center justify-center text-white text-xs font-bold">S</div>
+          <span class="text-lg font-bold text-white">SakooApp</span>
         </div>
-        <!-- <div class="flex flex-wrap justify-center gap-4 md:gap-6 text-sm md:text-base">
+        <p class="text-sm md:text-base text-center md:text-left">© 2026 SakooApp. All rights reserved.</p>
+        <div class="flex flex-wrap justify-center gap-4 md:gap-6 text-sm md:text-base">
           <a href="#" class="hover:text-white transition-colors">Privasi</a>
           <a href="#" class="hover:text-white transition-colors">Syarat & Ketentuan</a>
           <a href="#" class="hover:text-white transition-colors">Bantuan</a>
-        </div> -->
+        </div>
       </div>
     </footer>
 
@@ -472,6 +498,7 @@
     <script>
       // State Management
       let mode = 'business'; // 'personal' | 'business'
+      let billingCycle = 'monthly'; // 'monthly' | 'yearly'
       let openFaqIndex = 0; // FAQ pertama terbuka secara default
 
       // Theme Data
@@ -548,10 +575,15 @@
         }
       };
 
-      // Pricing Data
+      // Pricing Data structure updated to support monthly/yearly calculations dynamically
       const pricingPlans = [
         {
-          name: "Pemula", icon: 'rocket', price: "0",
+          name: "Pemula", 
+          icon: 'rocket', 
+          monthlyPrice: 0,
+          yearlyDiscount: 0,
+          savings: null,
+          popular: false,
           features: [
             { name: "Users", value: "1", included: true },
             { name: "Outlets", value: "1", included: true },
@@ -569,7 +601,12 @@
           ]
         },
         {
-          name: "Juragan", icon: 'star', price: "56.000",
+          name: "Juragan", 
+          icon: 'star', 
+          monthlyPrice: 56000,
+          yearlyDiscount: 56000, // Rp 56K discount (Setara gratis 1 bulan)
+          savings: "Hemat 1 Bulan",
+          popular: false,
           features: [
             { name: "Users", value: "2", included: true },
             { name: "Outlets", value: "1", included: true },
@@ -587,7 +624,12 @@
           ]
         },
         {
-          name: "Sultan", icon: 'trophy', price: "150.000", popular: true,
+          name: "Sultan", 
+          icon: 'trophy', 
+          monthlyPrice: 150000,
+          yearlyDiscount: 300000, // Rp 300K discount (Setara gratis 2 bulan)
+          savings: "Hemat 2 Bulan",
+          popular: true,
           features: [
             { name: "Users", value: "Unlimited", included: true },
             { name: "Outlets", value: "Unlimited", included: true },
@@ -618,20 +660,20 @@
       // Update UI based on Current Mode
       function updateUI() {
         const t = theme[mode];
-        const tp = theme[mode === 'personal' ? 'business' : 'personal']; // the other theme for class removal
 
+        // 1. Navigation & Basic Elements Update
         const btnCoba = document.getElementById('nav-btn-coba');
         btnCoba.className = `px-5 py-2.5 rounded-full text-white transition-all duration-500 shadow-lg ${t.primary} ${t.primaryHover} ${t.shadowColor}`;
 
         const btnDaftarMobile = document.getElementById('mobile-btn-daftar');
         btnDaftarMobile.className = `mt-4 w-full py-3.5 rounded-full text-white font-bold transition-colors ${t.primary}`;
 
-        // 2. Hero Section
+        // 2. Hero Section Update
         document.getElementById('hero-title-highlight').className = `transition-colors duration-500 ${t.text}`;
         document.getElementById('hero-title-highlight').textContent = t.titleHighlight;
         document.getElementById('hero-subtitle').textContent = t.subtitle;
 
-        // Toggle Slider
+        // Mode Slider (Personal/Business)
         const slider = document.getElementById('toggle-slider');
         if (mode === 'business') {
           slider.classList.add('translate-x-full');
@@ -676,7 +718,7 @@
 
         document.getElementById('hero-badge-icon').className = `w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center transition-colors duration-500 ${t.lightBg} ${t.text}`;
 
-        // 3. Problem Section
+        // 3. Problem Section Update
         document.getElementById('problem-title').innerHTML = t.problemTitle;
         document.getElementById('problem-subtitle').textContent = t.problemSubtitle;
 
@@ -691,7 +733,7 @@
             `).join('');
         document.getElementById('problems-container').innerHTML = problemsHTML;
 
-        // 4. Features Section
+        // 4. Features Section Update
         document.getElementById('fitur-section').className = `py-16 md:py-24 transition-colors duration-500 ${t.lightBg}`;
         document.getElementById('fitur-title-highlight').className = `transition-colors duration-500 ${t.text}`;
         document.getElementById('fitur-title-highlight').textContent = mode === 'personal' ? 'Keuangan Anda' : 'Bisnis UMKM';
@@ -712,7 +754,7 @@
             `).join('');
         document.getElementById('features-container').innerHTML = featuresHTML;
 
-        // 5. Testimonials Section
+        // 5. Testimonials Section Update
         document.getElementById('testi-highlight').className = `transition-colors duration-500 ${t.text}`;
 
         const testiHTML = t.testimonials.map(testi => `
@@ -736,8 +778,29 @@
             `).join('');
         document.getElementById('testimonials-container').innerHTML = testiHTML;
 
-        // 6. Pricing Section
+        // 6. Pricing Section Update
         document.getElementById('harga-highlight').className = `transition-colors duration-500 ${t.text}`;
+
+        // Handling Billing Toggle Style
+        const billingSlider = document.getElementById('billing-slider');
+        const btnMonthly = document.getElementById('btn-monthly');
+        const btnYearly = document.getElementById('btn-yearly');
+        
+        if (billingCycle === 'yearly') {
+            billingSlider.classList.add('translate-x-full');
+            billingSlider.classList.remove('translate-x-0');
+            btnYearly.classList.add('text-slate-900');
+            btnYearly.classList.remove('text-slate-500', 'hover:text-slate-700');
+            btnMonthly.classList.add('text-slate-500', 'hover:text-slate-700');
+            btnMonthly.classList.remove('text-slate-900');
+        } else {
+            billingSlider.classList.remove('translate-x-full');
+            billingSlider.classList.add('translate-x-0');
+            btnMonthly.classList.add('text-slate-900');
+            btnMonthly.classList.remove('text-slate-500', 'hover:text-slate-700');
+            btnYearly.classList.add('text-slate-500', 'hover:text-slate-700');
+            btnYearly.classList.remove('text-slate-900');
+        }
 
         const pricingHTML = pricingPlans.map(plan => {
           const isPop = plan.popular;
@@ -747,6 +810,17 @@
 
           const iconClass = isPop ? `${t.lightBg} ${t.text}` : 'bg-slate-100 text-slate-600';
           const btnClass = isPop ? `${t.primary} ${t.primaryHover} text-white shadow-lg` : 'bg-slate-100 hover:bg-slate-200 text-slate-700';
+
+          // Menghitung ekuivalen bulanan secara dinamis berdasarkan siklus (Monthly/Yearly)
+          const currentPriceRaw = billingCycle === 'yearly' && plan.monthlyPrice > 0
+            ? ((plan.monthlyPrice * 12) - plan.yearlyDiscount) / 12
+            : plan.monthlyPrice;
+          
+          // Memformat harga agar ada titik ribuan (misal: 51.333)
+          const currentPriceFormatted = currentPriceRaw === 0 ? "0" : Math.round(currentPriceRaw).toLocaleString('id-ID');
+          
+          const periodText = '/bulan';
+          const showSavingsTag = billingCycle === 'yearly' && plan.savings ? true : false;
 
           const featuresList = plan.features.map(f => `
                     <div class="flex justify-between items-center text-xs md:text-sm border-b border-slate-100 pb-2.5 md:pb-3 last:border-0">
@@ -772,11 +846,12 @@
                             <h3 class="text-lg md:text-xl font-bold text-slate-900">${plan.name}</h3>
                         </div>
 
-                        <div class="mb-6 md:mb-8">
+                        <div class="mb-6 md:mb-8 flex flex-col min-h-[60px] justify-center">
                             <div class="flex items-baseline gap-1">
-                                <span class="text-3xl md:text-4xl font-extrabold text-slate-900">Rp ${plan.price}</span>
-                                <span class="text-slate-500 font-medium text-sm md:text-base">/bulan</span>
+                                <span class="text-3xl md:text-4xl font-extrabold text-slate-900">Rp ${currentPriceFormatted}</span>
+                                <span class="text-slate-500 font-medium text-sm md:text-base">${periodText}</span>
                             </div>
+                            ${showSavingsTag ? `<span class="inline-block mt-2 text-sm font-bold text-green-600 bg-green-50 px-2.5 py-1 rounded-md self-start border border-green-100">${plan.savings}</span>` : ''}
                         </div>
 
                         <div class="space-y-3 md:space-y-4 mb-8 md:mb-10 flex-1">
@@ -865,7 +940,7 @@
         }
       });
 
-      // Event Listeners for Theme Toggles
+      // Event Listeners for Theme Toggles (Personal/Business)
       document.getElementById('btn-personal').addEventListener('click', () => {
         if (mode !== 'personal') {
           mode = 'personal';
@@ -876,6 +951,21 @@
       document.getElementById('btn-business').addEventListener('click', () => {
         if (mode !== 'business') {
           mode = 'business';
+          updateUI();
+        }
+      });
+
+      // Event Listeners for Billing Toggles (Monthly/Yearly)
+      document.getElementById('btn-monthly').addEventListener('click', () => {
+        if (billingCycle !== 'monthly') {
+          billingCycle = 'monthly';
+          updateUI();
+        }
+      });
+
+      document.getElementById('btn-yearly').addEventListener('click', () => {
+        if (billingCycle !== 'yearly') {
+          billingCycle = 'yearly';
           updateUI();
         }
       });
@@ -915,7 +1005,8 @@
           gtag('event', 'click_cta', {
             'button_name': buttonName,
             'plan_name': planName || 'N/A',
-            'current_mode': mode
+            'current_mode': mode,
+            'billing_cycle': billingCycle
           });
         }
 
@@ -924,7 +1015,8 @@
           fbq('trackCustom', 'ClickCTA', {
             buttonName: buttonName,
             planName: planName || 'N/A',
-            currentMode: mode
+            currentMode: mode,
+            billingCycle: billingCycle
           });
         }
 
@@ -941,5 +1033,4 @@
 
     </script>
   </body>
-
 </html>
